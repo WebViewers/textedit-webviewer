@@ -1,0 +1,21 @@
+{
+    "author": "Caleb James DeLisle",
+    "name": "textedit",
+    "description": "Basic Text Edit WebViewer",
+    "version": "0.1.0",
+    "repository": {
+        "url": "https://github.com/WebViewers/textedit-webviewer.git",
+        "type": "git"
+    },
+    "main": "./index",
+    "dependencies": {
+        "resilience-tools": "~0.3.2"
+    },
+    "resilience": {
+        "modelVersion": "0.1",
+        "actions": {
+            "edit":["txt","c","java"],
+            "view":["txt","c","java"]
+        }
+    }
+}
