@@ -1,16 +1,16 @@
 {
-    "modelVersion": "0.1",
-    "author": "Caleb James DeLisle",
+    "modelVersion":"0.1",
+    "author": "Caleb James DeLisle, XWiki SAS",
     "name": "textedit",
-    "description": "Basic Text Edit WebViewer",
+    "description": "Example Text Editing WebViewer",
     "version": "0.1.0",
-    "repository": {
-        "url": "https://github.com/WebViewers/textedit-webviewer.git",
-        "type": "git"
-    },
-    "main": "./index.html",
+    "releaseStatus": "beta",
     "actions": {
         "edit":["txt","c","java"],
         "view":["txt","c","java"]
-    }
+    },
+    "sourceURL": "https://github.com/WebViewers/textedit-webviewer.git",
+    "license": "http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html",
+    "type": "office",
+    "main": "./index.html"
 }
