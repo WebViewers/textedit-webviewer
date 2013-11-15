@@ -3,19 +3,17 @@
   "use strict";
 
   rJS(window).ready(function () {
+
+    var area = document.getElementById("textarea-a");
+
     rJS(window).declareMethod('setContent', function (value) {
-      return rJS(this).context.find('textarea').val(value);
+      return area.value = value;
 
     }).declareMethod('getContent', function () {
-      return rJS(this).context.find('textarea').val();
+      return area.value;
 
-    }).declareMethod('setReadOnly', function (isReadOnly) {
-      if (isReadOnly) {
-        rJS(this).context.find('textarea').attr('readonly', 'readonly');
-      } else {
-        rJS(this).context.find('textarea').removeAtte('readonly');
-      }
     });
+
   });
 
 }());
